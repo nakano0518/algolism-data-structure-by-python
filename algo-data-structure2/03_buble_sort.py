@@ -2,7 +2,7 @@
 # リストの末尾から隣接要素を見ていき、大小関係が逆なら交換する
 
 def buble_sort(arr):
-    for i in range(0, len(arr)):
+    for i in range(0, len(arr)-1):
         exchange(arr, i)
 
 def exchange(arr, i):
