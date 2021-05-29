@@ -12,5 +12,6 @@ def fib(n):
         return 1
     return fib(n-1)+fib(n-2)
 
-for i in range(35):
-    print(fib(i))
+if __name__ == '__main__':
+    for i in range(35):
+        print(fib(i))
